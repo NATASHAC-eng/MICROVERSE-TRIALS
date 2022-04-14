@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--TITTLE AND MINI DESCRIPTION-->
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description" >Thank you for taking the time to help us improve the platform</p>
+<!--Beginning of user form-->    
+    <form id="survey-form" action="">
+
+<!--PERSONAL DETAILS INPUTS-->
+     <label for="name" id="name-label">Name</label> 
+     <input type="text" id="name" placeholder="Enter your name"><br>
+
+     <label for="email" id="email-label">Email</label> 
+     <input type="email" id="email"   placeholder="Enter your Email"><br>
+
+     <label for="age" id="number-label">Age(optional)</label> 
+     <input type="number" id="number" min="0" max="200" placeholder="Age"><br>
+
+<!--SELECTION DROP-DOWN MENU FOR CURRENT ROLE-->
+     <label for="options" >Which option best describes your current role?</label><br>
+
+     <select name="" id="dropdown" placeholder="">
+        <option value="">Select current role</option>
+        <option value="Student">Student</option>
+        <option value="Full Time Job">Full Time Job</option>
+        <option value="Full Time Learner">Full Time Learner</option>
+        <option value="Prefer not to say">Prefer not to say</option>
+        <option value="Other">Other</option>          
+     </select><br>
+
+<!--RECOMMENDATION CHOICE USING RADIO BUTTONS-->
+     <label for="recommendation">Would you recommend freeCodeCamp to a friend?</label><br>
+    
+     <input type="radio" name="recommendation"  value="Definitely">
+     <label for="Definitely">Definitely</label><br>
+
+     <input type="radio" name="recommendation" value="Maybe">
+     <label for="Maybe">Maybe</label><br>
+
+     <input type="radio" name="recommendation" value="Not sure">
+     <label for="Not sure">Not sure</label><br>
+
+<!--SELECTION DROP-DOWN MENU FOR FAV FEATURES-->
+     <label for="options" >What is your favorite feature of freeCodeCamp?</label><br>
+
+     <select name="" id="dropdown" placeholder="">
+        <option value="">Select an option</option>
+        <option value="Challenges">Challenges</option>
+        <option value="Projects">Projects</option>
+        <option value="Community">Community</option>
+        <option value="Open Source">Open Source</option>               
+     </select><br>
+
+<!--IMPROVEMENTS CHECKBOX AREA-->
+     <label for="improve">What would you like to see improved? (Check all that apply)</label><br>
+    
+     <input type="checkbox" value="Front-end Projects">
+     <label for="Front-end Projects">Front-end Projects</label><br>
+
+     <input type="checkbox"  value="Back-end Projects">
+     <label for="Back-end Projects">Back-end Projects</label><br>
+
+     <input type="checkbox" value="Data Visualization">
+     <label for="Data Visualization">Data Visualization</label><br>
+
+     <input type="checkbox" value="Open Source Community">
+     <label for="Open Source Community">Open Source Community</label><br>
+
+     <input type="checkbox"  value="Gitter help rooms">
+     <label for="Gitter help rooms">Gitter help rooms"</label><br>
+
+     <input type="checkbox" value="Videos">
+     <label for="Videos">Videos</label><br>
+
+     <input type="checkbox" value="City Meetups">
+     <label for="City Meetups">City Meetups</label><br>
+
+     <input type="checkbox"  value="Wiki">
+     <label for="Wiki">Wiki</label><br>
+
+     <input type="checkbox" value="Additional Courses">
+     <label for="Additional Courses">Additional Courses</label><br>
+
+<!--COMMENTS AND SUGGESTIONS AREA-->    
+     <label for="text-area" >Any comments or suggestions?</label> 
+     <textarea  name="comments" rows="4" cols="50" placeholder="Enter your comment here">
+     </textarea>
+
+<!--SUBMIT BUTTON-->
+      <button id="submit"><input type="submit" value="Submit">
+      </button>
+   </form>
+</body>
+</html>
