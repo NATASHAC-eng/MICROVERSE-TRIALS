@@ -3,22 +3,23 @@ body
     background-image:url("survey-form-background.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    opacity: 1px;
+    
 
 }
 #main
-{   font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    line-height: 1.2;
-    margin-left: 15%;
-    margin-right:15%;
-    color:white;
-    padding: 10px;
-    background-color: blue;
-    /* width:600px; */
-    opacity:0.5;
-    overflow-y: hidden;
+{
+background-color: rgb(221,160,221,0.4);
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+margin: 0 auto;
+line-height: 1.2;  
+position:absolute;
+top:0px;
+width:100%;
+left:0px; 
 }
+
 #title
 {
     font-size: 35px;
@@ -28,5 +29,14 @@ body
 {
     font-size: 20px;
     text-align: center;
+    font-style: italic;
 }
-
+#survey-form
+{
+    padding:10px;
+    margin:10%;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:#0F5298;
+}
